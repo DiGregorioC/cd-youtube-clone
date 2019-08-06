@@ -8,7 +8,6 @@ class App extends React.Component {
     videos: [],
     selectedVideo: null
   }
-
   componentDidMount(){
     this.handleSubmit('React Tutorials')
   }
