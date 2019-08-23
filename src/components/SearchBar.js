@@ -10,7 +10,7 @@ const SearchBar = ({ onFormSubmit }) => {
 
   const onKeyPress = (event) => {
     if(event.key === 'Enter') {
-      onFormSubmit()
+      onFormSubmit(searchTerm)
     }
   }
     return(
